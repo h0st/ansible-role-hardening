@@ -155,6 +155,8 @@
 - name: Configure needrestart, install and remove various packages
   ansible.builtin.import_tasks:
     file: packages.yml
+  when:
+    - manage_packages
   tags:
     - package_installation
 

@@ -1,4 +1,5 @@
 ---
+manage_packages: true
 automatic_updates: true
 system_upgrade: true
 
